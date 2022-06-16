@@ -1,0 +1,161 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: none;
+}
+
+.cars {
+    width: 20%;
+    min-width: 250px;
+    height: 27rem;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 15px 0;
+    position: relative;
+    background-color: hsla(31, 77%, 52%, 0.932);
+}
+
+.cars img {
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsla(31, 77%, 52%, 0.932);
+}
+
+.cars h2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cars p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cars button {
+    border-radius: 30px;
+    height: 3rem;
+    width: 60%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.cars1 {
+    width: 20%;
+    min-width: 250px;
+    height: 27rem;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    margin-left: 15px 0;
+    position: relative;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cars1 img {
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsla(31, 77%, 52%, 0.932);
+}
+
+.cars1 h2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cars1 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cars1 button {
+    border-radius: 30px;
+    height: 3rem;
+    width: 60%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.cars2 {
+    width: 20%;
+    min-width: 250px;
+    height: 27rem;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    margin-left: 15px 0;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.cars2 img {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cars2 h2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cars2 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cars2 button {
+    border-radius: 30px;
+    height: 3rem;
+    width: 60%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+@media (max-width:375px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: none;
+        width: 300px;
+    }
+}
